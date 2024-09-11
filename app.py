@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 import PyPDF2
 
-genai.configure(api_key="AIzaSyCZ6wEg_BVtrkwD3hpjaM3nhbb0aIJg7yA")
+genai.configure(api_key="GEMINI_API_KEY")
 
 def extract_text_from_pdf(uploaded_file):
     if uploaded_file is not None:
